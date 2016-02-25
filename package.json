@@ -27,6 +27,9 @@
     }
   ],
   "devDependencies": {
+
+  },
+  "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-filter": "^3.0.1",
@@ -37,9 +40,7 @@
     "gulp-util": "^3.0.7",
     "lodash": "^4.5.1",
     "main-bower-files": "^2.11.1",
-    "rimraf": "^2.5.2"
-  },
-  "dependencies": {
+    "rimraf": "^2.5.2",
     "requirejs": "^2.1.22"
   }
 }
