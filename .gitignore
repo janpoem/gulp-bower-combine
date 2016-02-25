@@ -32,6 +32,7 @@ node_modules
 
 bower_components
 
+test/
 test/bower_components/
 test/node_modules/
 .idea/
