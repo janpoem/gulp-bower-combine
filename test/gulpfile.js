@@ -1,6 +1,6 @@
 
 var gulp = require('gulp');
-var combine = require('../combine');
+var combine = require('../index');
 
 combine
 	.setDistDir('./public')
