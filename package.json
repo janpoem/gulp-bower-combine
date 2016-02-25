@@ -1,0 +1,45 @@
+{
+  "name": "gulp-bower-combine",
+  "version": "0.0.1",
+  "description": "A toolkit for combine bower sources by gulp and requirejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/janpoem/gulp-bower-combine.git"
+  },
+  "keywords": [
+    "gulp",
+    "bower",
+    "combine",
+    "requirejs"
+  ],
+  "author": {
+    "name": "Jiankai Zeng",
+    "email": "janpoem@163.com"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://git.oschina.net/janpoem/gulp-bower-combine/raw/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.5.1",
+    "main-bower-files": "^2.11.1",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "requirejs": "^2.1.22"
+  }
+}
