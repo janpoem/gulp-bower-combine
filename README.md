@@ -12,6 +12,10 @@ bower install jquery jquery-address --save
 gulp
 ```
 
+```bash
+npm install https://github.com/janpoem/gulp-bower-combine.git
+```
+
 编辑你的`gulpfile.js`
 
 ```js
