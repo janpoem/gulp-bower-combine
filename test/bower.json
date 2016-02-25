@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "authors": [
+    "Janpoem <janpoem@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "requirejs": "^2.1.22",
+    "lodash": "^4.5.1",
+    "semantic": "semantic-ui#^2.1.8",
+    "jquery.browser": "https://github.com/gabceb/jquery-browser-plugin.git#^0.1.0",
+    "jquery-address": "*",
+    "jquery-mousewheel": "^3.1.13",
+    "datetimepicker": "https://github.com/janpoem/datetimepicker.git#^2.5.1"
+  }
+}

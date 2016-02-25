@@ -241,8 +241,6 @@ Combine.prototype.makePatterns = function (base, patterns) {
 
 Combine.prototype.rjs = function (options, callback) {
 	options = options || {};
-	if (!options.baseUrl)
-		options.baseUrl = this.makeDistPath('js');
 	rjs.optimize(options, function (buildResponse) {
 		// console.log('build response', buildResponse);
 		_.isFunction(callback) && callback();
